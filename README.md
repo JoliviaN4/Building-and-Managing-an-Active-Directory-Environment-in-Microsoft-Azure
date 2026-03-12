@@ -128,7 +128,7 @@ Step-by-step
 7. Review the settings before deployment                                   
 
 Explanation:
- This place dc-1 on the lab network and allow it to be managed remotely through Remote Desktop.
+ This configuration integrates DC-1 into the lab network infrastructure and enables secure remote management using Remote Desktop Protocol (RDP).
 
 <h2>Configure DC-1 Private IP Address</h2>
 <br /> 
@@ -159,11 +159,11 @@ Explanation:
 <p>
 Step-by-step
 
-1. Start another Create virtual machine process.
-2. Select the Active-Directory-Lab resource group.
-3. Enter the virtual machine name Client-1.
-4. Chose the same region as dc-1 (Canada Central).
-5. Review the basic configuration settings.
+1. Start another Create virtual machine process
+2. Select the Active-Directory-Lab resource group
+3. Enter the virtual machine name Client-1
+4. Chose the same region as dc-1 (Canada Central)
+5. Review the basic configuration settings
 
 Explanation:
  This machine was created to simulate a workstation that would later connect to and join the domain.
@@ -196,16 +196,16 @@ Explanation:
 <p>
 Step-by-step
 
-1. Open the Networking tab during the Client-1 setup.
-2. Select Active-Directory-VNet.
-3. Keep the default subnet.
-4. Assign a public IP address.
-5. Configure the network security settings.
-6. Allow RDP (3389) inbound access.
-7. Continue with the deployment.
+1. Open the Networking tab during the Client-1 setup
+2. Select Active-Directory-VNet
+3. Keep the default subnet
+4. Assign a public IP address
+5. Configure the network security settings
+6. Allow RDP (3389) inbound access
+7. Continue with the deployment
 
 Explanation:
- This ensured that Client-1 was on the same virtual network as dc-1 so both machines could communicate internally.
+ This Comfirms that Client-1 was on the same virtual network as dc-1 so both machines could communicate internally.
 
 <h2>Verify Both Virtual Machines Are Running</h2>
 <br />   
@@ -216,12 +216,12 @@ Explanation:
 <p>
 Step-by-step
 
-1. Return to the Virtual machines page.
-2. Verify that dc-1 and Client-1 appeared in the list.
-3. Confirm both virtual machines showed a Running status.
+1. Return to the Virtual machines page
+2. Verify that dc-1 and Client-1 appeared in the list
+3. Confirm both virtual machines shows a Running status
 
 Explanation:
- This confirmed that both systems were deployed successfully and were ready for configuration and testing.
+ This confirms that both systems were deployed successfully and were ready for configuration and testing.
 
 <h2>Connect to dc-1 with Remote Desktop</h2>
 <br />  
@@ -232,12 +232,12 @@ Explanation:
 <p>
 Step-by-step
 
-1. Open the dc-1 virtual machine details in Azure.
-2. Locate the public IP address for dc-1.
-3. Open Remote Desktop Connection on the local computer.
-4. Enter the public IP address.
-5. Enter the administrator credentials.
-6. Start the remote session.
+1. Open the dc-1 virtual machine details in Azure
+2. Locate the public IP address for dc-1   
+3. Open Remote Desktop Connection on the local computer
+4. Enter the public IP address
+5. Enter the administrator credentials
+6. Now start the remote session
 
 Explanation:
  Remote Desktop provides administrative access to the server so configuration tasks can be completed directly inside the VM.
@@ -251,10 +251,10 @@ Explanation:
 <p>
 Step-by-step
  
-1. Sign in to dc-1 through Remote Desktop.
-2. Wait for the Windows Server desktop to load.
-3. Confirm that Server Manager opened successfully.
-4. Verify the server was ready for further setup.
+1. Sign in to dc-1 through Remote Desktop
+2. Wait for the Windows Server desktop to load
+3. Confirm that Server Manager opened successfully
+4. Verify the server was ready for further setup
 
 Explanation:
  Server Manager is the main administrative tool used to install server roles and manage Windows Server services.
