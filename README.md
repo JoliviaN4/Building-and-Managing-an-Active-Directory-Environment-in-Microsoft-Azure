@@ -282,7 +282,7 @@ Explanation:
 <br />  
 
 <p>
-<img width="1512" height="941" alt="Lab19" src="https://github.com/user-attachments/assets/da386eda-dc7b-49db-b49d-aa0dabd87769" />
+<img width="1512" height="982" alt="Lab23" src="https://github.com/user-attachments/assets/b606bba2-f30e-4fc5-a8ec-01499e9e183d" />
 </p>
 <p>
 Step-by-step
