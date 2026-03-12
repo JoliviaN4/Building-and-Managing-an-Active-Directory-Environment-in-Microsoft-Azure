@@ -2,7 +2,7 @@
 <img width="332" height="152" alt="image" src="https://github.com/user-attachments/assets/f5f42311-aa18-4f41-8888-3227883b937a"/>
 </p>
 
-<h1>Azure Infrastructure Setup for Active Directory Deployment</h1>
+<h1>Designing Active Directory Infrastructure in Azure</h1>
 This section of the lab involved building the foundational cloud infrastructure required for an Active Directory environment in Microsoft Azure. The process included creating a resource group, deploying a virtual network, provisioning virtual machines for the domain controller and client, and validating network connectivity to ensure the environment was ready for domain services deployment.<br />
 
 
