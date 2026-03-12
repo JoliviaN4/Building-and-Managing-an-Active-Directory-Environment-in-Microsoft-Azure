@@ -1,5 +1,5 @@
 <p align="center">
-<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/05942cc4-9b87-412c-91a9-7034bd683bf7" />
+<img width="332" height="152" alt="image" src="https://github.com/user-attachments/assets/f5f42311-aa18-4f41-8888-3227883b937a"/>
 </p>
 
 <h1>Azure Virtual Machine Environment Lab</h1>
