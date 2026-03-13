@@ -22,7 +22,7 @@ This section of the lab involves building the foundational cloud infrastructure 
 <h2>Open Resource Groups in Azure</h2>
 
 <p>
-<img width="1512" height="982" alt="Lab1" src="https://github.com/user-attachments/assets/36af3342-6e17-46bd-9f1d-473e7baba7fe" />
+<img width="1461" height="896" alt="Lab1" src="https://github.com/user-attachments/assets/f6d5d6c0-a4d6-45ff-a25a-3a674006834e" />
 </p>
 <p>
  Step-by-step
