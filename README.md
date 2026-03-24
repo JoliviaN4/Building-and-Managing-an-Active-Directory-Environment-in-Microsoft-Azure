@@ -100,12 +100,12 @@ Explanation:
 <p>
 Step-by-step
 
-1. Select Windows Server 2022 Datacenter Azure Edition as the image.
+1. Select Windows Server 2022 Datacenter Azure Edition as the image
 2. Confirm the VM architecture setting 
-3. Select the VM size for the lab (Standard_D2s_v3 - 2 vopus, 8 GiB memory)
+3. Select the VM size for the lab
 4. Enter the administrator username 
 5. Enter and confirm the administrator password
-6. Continue through the setup wizard.
+6. Continue through the setup wizard
 
 Explanation:
  This step ensures that the server is deployed with a supported Windows Server operating system capable of running Active Directory Domain Services.
@@ -301,11 +301,11 @@ Explanation:
 <p>
 Step-by-step
 
-1. Confirm that the ping to 10.0.0.4 was successful.
+1. Confirm that the ping to 10.0.0.4 was successful
 2. Enter the following command: ipconfig /all
-3. Review the network adapter details.
-4. Verify the client IP configuration.
-5. Confirm the DNS server setting points to 10.0.0.4.
+3. Review the network adapter details
+4. Verify the client IP configuration
+5. Confirm the DNS server setting points to 10.0.0.4
 
 Explanation:
  This final verification confirmed that Client-1 could communicate with dc-1 and that the DNS settings were correctly configured to point to the domain controller. That completes the infrastructure setup required before deploying Active Directory.
