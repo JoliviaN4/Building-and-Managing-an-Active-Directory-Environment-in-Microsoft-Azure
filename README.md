@@ -159,7 +159,7 @@ Explanation:
 <p>
 Step-by-step
 
-1. Start another Create virtual machine process
+1. Create another virtual machine process
 2. Select the Active-Directory-Lab resource group
 3. Enter the virtual machine name Client-1
 4. Choose the same region as dc-1 (Canada Central)
