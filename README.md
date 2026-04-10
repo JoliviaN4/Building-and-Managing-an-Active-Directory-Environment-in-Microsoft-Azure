@@ -30,7 +30,7 @@ This project demonstrates the full lifecycle of building, deploying, automating,
 In the first phase of the project, the Azure environment is prepared to support the Active Directory deployment. A dedicated resource group and virtual network are created, two virtual machines are deployed, and connectivity is verified to ensure the environment is ready for domain services.<br>
  
 <h3>Open Resource Groups in Azure</h3>
-<img width="1461" height="896" alt="Lab1" src="https://github.com/user-attachments/assets/c258b933-c00c-4449-a1e8-eecc90e2ed89" />
+<img width="1461" height="896" alt="Lab1" src="https://github.com/user-attachments/assets/59144175-02af-4264-9b6e-152ebc333553" />
 
 **Steps:**
 - Open the Azure portal.
