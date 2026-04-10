@@ -1,9 +1,4 @@
-<h1>Building and Managing an Active Directory Environment in Microsoft Azure</h1>
-
-<p align="center">
-<img width="600" height="335" alt="image" src="https://github.com/user-attachments/assets/f5a3d652-196e-4dcf-814f-113a9cbb6f54" />
-
-<hr>
+<h1>Designing and Managing an Active Directory Environment in Microsoft Azure</h1>
 
 <h2>Overview</h2>
 This project demonstrates the full lifecycle of building, deploying, automating, and managing an Active Directory environment in Microsoft Azure. The implementation follows a structured approach that begins with infrastructure setup, continues through domain deployment, expands into user account automation with PowerShell, and concludes with security enforcement through Group Policy and account management.
