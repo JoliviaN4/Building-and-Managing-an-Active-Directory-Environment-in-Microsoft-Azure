@@ -30,7 +30,7 @@ This project demonstrates the full lifecycle of building, deploying, automating,
 In the first phase of the project, the Azure environment is prepared to support the Active Directory deployment. A dedicated resource group and virtual network are created, two virtual machines are deployed, and connectivity is verified to ensure the environment is ready for domain services.<br>
  
 <h3>Open Resource Groups in Azure</h3>
-<img width="1461" height="896" alt="Lab1" src="https://github.com/user-attachments/assets/59144175-02af-4264-9b6e-152ebc333553" />
+<img width="1461" height="896" alt="Lab1 edited" src="https://github.com/user-attachments/assets/bb134e41-c612-461d-a307-873d523a8158" />
 
 **Steps:**
 - Open the Azure portal.
@@ -40,7 +40,7 @@ In the first phase of the project, the Azure environment is prepared to support 
 **Explanation:** A resource group is used to organize related Azure resources in one location. Creating it first keeps all lab components structured and easier to manage.
 
 <h3>Create the Resource Group</h3>
-
+<img width="1512" height="982" alt="Lab2" src="https://github.com/user-attachments/assets/aae5dcfd-0b84-4c21-ad84-36802128a777" />
 
 **Steps:**
 - Select the appropriate Azure subscription.
@@ -52,7 +52,7 @@ In the first phase of the project, the Azure environment is prepared to support 
 **Explanation:** This creates a dedicated container for all resources used in the lab, including virtual machines and networking components.
 
 <h3>Create the Virtual Network</h3>
-<img width="1512" height="982" alt="Lab4" src="https://github.com/user-attachments/assets/bfc7ef1a-ff64-4bcf-bcf4-79e8f47abf91" />
+<img width="1512" height="982" alt="Lab4" src="https://github.com/user-attachments/assets/2b5f4e5f-756f-49c9-b63e-15b0e866aa8e" />
 
 **Steps:**
 - Open **Virtual networks** in Azure.
@@ -66,7 +66,7 @@ In the first phase of the project, the Azure environment is prepared to support 
 **Explanation:** The virtual network allows the domain controller and client machine to communicate privately inside Azure. This is required for domain communication and DNS resolution.
 
 <h3>Configure dc-1 Operating System and Credentials</h3>
-<img width="1512" height="982" alt="Lab6" src="https://github.com/user-attachments/assets/91454e26-9354-4a28-9929-4393ab68fe12" />
+<img width="1512" height="982" alt="Lab6" src="https://github.com/user-attachments/assets/e6d56979-7d91-4fe3-9bb3-b38e3caf2941" />
 
 **Steps:**
 - Begin creating the **dc-1** virtual machine.
@@ -80,7 +80,7 @@ In the first phase of the project, the Azure environment is prepared to support 
 **Explanation:** This step confirms that the server is deployed with a supported Windows Server operating system capable of running Active Directory Domain Services.
 
 <h3>Configure Networking for dc-1</h3>
-<img width="1512" height="982" alt="Lab7" src="https://github.com/user-attachments/assets/e719186f-1a6e-4a59-9a3d-c0ef8441b4ef" />
+<img width="1512" height="982" alt="Lab7" src="https://github.com/user-attachments/assets/f1707b3d-630e-4a6a-8ed5-5df3a515e822" />
 
 **Steps:**
 - Open the **Networking** tab during the **dc-1** VM creation.
@@ -94,7 +94,7 @@ In the first phase of the project, the Azure environment is prepared to support 
 **Explanation:** This ensures that **dc-1** is connected to the lab environment and can be remotely accessed and managed through Remote Desktop.
 
 <h3>Configure DC-1 Private IP Address</h3>
-<img width="1512" height="982" alt="Lab12" src="https://github.com/user-attachments/assets/57d92583-b2ed-4e55-bf31-d697e40a3946" />
+<img width="1512" height="982" alt="Lab12" src="https://github.com/user-attachments/assets/7ba8e901-a0e6-453d-9809-f0469d4b14f1" />
 
 **Steps:**
 - Locate the Network Interface settings for the **dc-1** virtual machine.
@@ -108,7 +108,7 @@ In the first phase of the project, the Azure environment is prepared to support 
 **Explanation:** This step ensures that the domain controller maintains a consistent private IP address, which is critical for reliable DNS services and proper communication within the Active Directory environment.
 
 <h3>Begin Creating the Client VM</h3>
-<img width="1512" height="982" alt="Lab8" src="https://github.com/user-attachments/assets/39a82e3d-fc7b-4c2d-9724-9cf36df917ed" />
+<img width="1512" height="982" alt="Lab8" src="https://github.com/user-attachments/assets/76ffe244-8bdb-42ba-8a53-2f8a9babe0c2" />
 
 **Steps:**
 - Open another virtual machine.
@@ -120,7 +120,7 @@ In the first phase of the project, the Azure environment is prepared to support 
 **Explanation:** This machine is created to simulate a workstation that will later connect to and join the domain.
 
 <h3>Configure Networking for Client-1</h3>
-<img width="1512" height="982" alt="Lab10" src="https://github.com/user-attachments/assets/8045850c-872e-4674-b0a0-3339562c3f9d" />
+<img width="1512" height="982" alt="Lab10" src="https://github.com/user-attachments/assets/969f71a3-6d3a-4f2c-bed4-5bbfe0536344" />
 
 **Steps:**
 - Open the **Networking** tab during the **Client-1** setup.
@@ -134,7 +134,6 @@ In the first phase of the project, the Azure environment is prepared to support 
 **Explanation:** This confirms that **Client-1** is placed on the same virtual network as **dc-1** so both machines can communicate internally.
 
 <h3>Begin Connectivity Testing from Client-1</h3>
-<img width="1512" height="982" alt="Lab23" src="https://github.com/user-attachments/assets/da3ce6da-48fc-4b37-998e-5b06f2ca32f3" />
 
 **Steps:**
 - Log in to **Client-1.**
